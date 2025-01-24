@@ -91,8 +91,8 @@ dependencies {
     implementation(libs.com.google.firebase.firebase.auth.ktx)
 
     // Koin
-    implementation("io.insert-koin:koin-android:2.2.3")
-    implementation("io.insert-koin:koin-androidx-viewmodel:2.2.3")
+    implementation(libs.koin.android)
+    implementation(libs.koin.androidx.viewmodel)
 
     // Room
     implementation(libs.androidx.room.runtime.v252)
@@ -119,5 +119,8 @@ dependencies {
     // AndroidX Test
     androidTestImplementation(libs.androidx.junit.v115)
     androidTestImplementation(libs.androidx.espresso.core.v351)
+    testImplementation(libs.mockwebserver)
+    testImplementation (libs.mockk)
+    testImplementation (libs.kotlinx.coroutines.test)
 }
 

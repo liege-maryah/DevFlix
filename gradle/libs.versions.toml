@@ -25,6 +25,7 @@ koinAndroidxViewmodel = "2.2.3"
 koinAndroidxViewmodelVersion = "2.2.3"
 koinKspCompiler = "1.1.1"
 kotlinxCoroutinesAndroid = "1.8.0"
+kotlinxCoroutinesTest = "1.8.0"
 library = "8.1.0"
 kotlin = "1.9.0"
 coreKtx = "1.15.0"
@@ -37,6 +38,8 @@ composeBom = "2025.01.00"
 loggingInterceptor = "4.11.0"
 material = "1.9.0"
 mockk = "1.13.5"
+mockkVersion = "1.12.4"
+mockwebserver = "4.10.0"
 navigationCompose = "2.8.5"
 navigationFragment = "2.8.5"
 navigationFragmentKtx = "2.7.0"
@@ -103,13 +106,16 @@ koin-android = { module = "io.insert-koin:koin-android", version.ref = "koinAndr
 koin-android-v343 = { module = "io.insert-koin:koin-android", version.ref = "koinAndroidVersion" }
 koin-android-viewmodel = { module = "io.insert-koin:koin-android-viewmodel", version.ref = "koinAndroidViewmodel" }
 koin-androidx-compose = { module = "io.insert-koin:koin-androidx-compose", version.ref = "koinAndroidxCompose" }
-koin-androidx-viewmodel = { module = "io.insert-koin:koin-androidx-viewmodel", version.ref = "koinAndroidxViewmodel" }
+koin-androidx-viewmodel = { module = "io.insert-koin:koin-androidx-viewmodel", version.ref = "koinAndroid" }
 koin-androidx-viewmodel-v315 = { module = "io.insert-koin:koin-androidx-viewmodel", version.ref = "koinAndroidxViewmodelVersion" }
 koin-ksp-compiler = { module = "io.insert-koin:koin-ksp-compiler", version.ref = "koinKspCompiler" }
 kotlinx-coroutines-android = { module = "org.jetbrains.kotlinx:kotlinx-coroutines-android", version.ref = "kotlinxCoroutinesAndroid" }
+kotlinx-coroutines-test = { module = "org.jetbrains.kotlinx:kotlinx-coroutines-test", version.ref = "kotlinxCoroutinesTest" }
 logging-interceptor = { module = "com.squareup.okhttp3:logging-interceptor", version.ref = "loggingInterceptor" }
 material = { module = "com.google.android.material:material", version.ref = "material" }
 mockk = { module = "io.mockk:mockk", version.ref = "mockk" }
+mockk-v1132 = { module = "io.mockk:mockk", version.ref = "mockkVersion" }
+mockwebserver = { module = "com.squareup.okhttp3:mockwebserver", version.ref = "mockwebserver" }
 okhttp = { module = "com.squareup.okhttp3:okhttp", version.ref = "okhttp" }
 okhttp-v4110 = { module = "com.squareup.okhttp3:okhttp", version.ref = "okhttpVersion" }
 retrofit = { module = "com.squareup.retrofit2:retrofit", version.ref = "retrofit" }
