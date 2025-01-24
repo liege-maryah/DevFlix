@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/nav_graph"
+    app:startDestination="@id/movieListFragment"> <!-- O primeiro destino será o LoginFragment -->
+
+
+    <!-- Destino para o MovieListFragment -->
+    <fragment
+        android:id="@+id/movieListFragment"
+        android:name="com.example.devflix.ui.theme.ui.movie.MovieListFragment"
+        android:label="DevFlix"
+        android:theme="@style/Theme.DevFlix"
+        tools:layout="@layout/fragment_movie_list">
+
+        <!-- Ação de navegação para o MovieDetailsFragment -->
+        <action
+            android:id="@+id/action_movie_list_to_movie_details"
+            app:destination="@id/movieDetailsFragment" />
+    </fragment>
+
+    <!-- Destino para o MovieDetailsFragment -->
+    <fragment
+        android:id="@+id/movieDetailsFragment"
+        android:name="com.example.devflix.ui.theme.ui.movie.MovieDetailsFragment"
+        android:label="Movie Details"
+        tools:layout="@layout/fragment_movie_details" />
+
+</navigation>
